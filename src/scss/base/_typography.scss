@@ -1,0 +1,47 @@
+body {
+    font-family: "Lato";
+    font-size: 1.6rem;
+}
+
+.heading-primary {
+    position: absolute;
+    font-size: 6rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    opacity: 0;
+    transition: all .5s;
+
+    &--top-left {
+        color: $color-green;
+        bottom: 3rem;
+        right: 15rem;
+        transform: translateY(-3rem);
+    }
+    
+    &--top-right {
+        color: $color-light-green;
+        bottom: 3rem;
+        left: 15rem;
+        transform: translateY(-3rem);
+    }
+    
+    &--bottom-left {
+        color: $color-lime;
+        top: 3rem;
+        right: 15rem;
+        transform: translateY(3rem);
+    }
+    
+    &--bottom-right {
+        color: $color-teal;
+        top: 3rem;
+        left: 15rem;
+        transform: translateY(3rem);
+    }
+}
+
+.heading-secondary {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}

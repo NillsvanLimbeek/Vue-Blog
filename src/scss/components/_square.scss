@@ -1,0 +1,41 @@
+.square {
+    @include flex-center-align;
+    position: absolute;
+    height: 12rem;
+    width: 12rem;
+    transition: all .5s;
+
+    &:hover + .heading-primary {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    &--top-left {
+        background: $color-green;
+        bottom: 0;
+        right: 0;
+    }
+
+    &--top-right {
+        background: $color-light-green;
+        bottom: 0;
+        left: 0;
+    }
+
+    &--bottom-left {
+        background: $color-lime;
+        top: 0;
+        right: 0;
+    }
+    
+    &--bottom-right {
+        background: $color-teal;
+        top: 0;
+        left: 0;
+    }
+}
+
+.square-open {
+    width: 100%;
+    height: 100%;
+}

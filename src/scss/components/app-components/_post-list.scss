@@ -1,0 +1,14 @@
+.post-list {
+
+    &__list {
+        list-style: none;
+    }
+
+    &__post {
+        cursor: pointer;
+
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+}

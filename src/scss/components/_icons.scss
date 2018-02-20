@@ -1,0 +1,16 @@
+.icon {
+    color: $color-white;
+    font-size: 4rem;
+
+    &--small {
+        font-size: 2rem;
+        color: $color-black;
+        margin: 0 0 .25rem 1.5rem;
+    }
+
+    &--black {
+        color: $color-black;
+        font-size: 3.5rem;
+        cursor: pointer;
+    }
+}
